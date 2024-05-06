@@ -1,0 +1,11 @@
+main = "./src/index.js"
+name = "terraform-backend"
+type = "javascript"
+account_id = <your-account-id>
+
+[vars]
+USERNAME = <username>
+
+kv-namespaces = [ 
+  { binding = "KV_NAMESPACE", id = "TERRAFORM" } 
+]
